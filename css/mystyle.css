@@ -1,7 +1,7 @@
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
-    color: #ef5350;
+    color: #585558;
     padding: 16px;
     font-size: 1em;
     border: none;
@@ -33,14 +33,25 @@
     font-weight: bold;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    color: #ef5350;
+.fb:hover {
+    color: #3b5998;
+}
+
+.ig:hover {
+    color: #fb3958;
+}
+
+.sc:hover {
+    color: #fffc00;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block;  
+}
+
+.dropbtn:hover > a {
+    color: #ef5350;
 }
 
 .backslash {
