@@ -47,10 +47,14 @@
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;  
+    display: block;
 }
 
-.dropbtn:hover > a {
+.dropdown:hover .dropbtn {
+  color: #ef5350;
+}
+
+.dropbtn:hover {
     color: #ef5350;
 }
 
